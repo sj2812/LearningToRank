@@ -1,6 +1,6 @@
 # LearningToRank
 
-tensorflow-ranking is a library which helps in building Learning too Rank (LTR) models which use neural networks. This .ipynb notebook is an attempt to explain how to use this library to rank
+tensorflow-ranking is a library which helps in building Learning to Rank (LTR) models which use neural networks. This .ipynb notebook is an attempt to explain how to use this library to rank
 documents given various (Query,set(documents)) pairs.
 
 The notebook consists of the following parts:
@@ -15,7 +15,7 @@ The notebook consists of the following parts:
   
 3. Dummy model creation
 
-  One of the challenges faced while using this library was amking predictions using the trained model. The trained model which is wrapped in an estimator when used directly (estimator.predict(...)) did not work. So as a workaround, a dummy estimator is created and then the saved checkpoints are used to load the trained saved model.
+  One of the challenges faced while using this library was making predictions using the trained model. The trained model which is wrapped in an estimator when used directly (estimator.predict(...)) did not work. So as a workaround, a dummy estimator is created and then the saved checkpoints are used to load the trained saved model.
   
 4. SHAP
 
