@@ -1,6 +1,6 @@
 # LearningToRank
 
-###LTR_tfr.ipynb
+# LTR_tfr.ipynb
 tensorflow-ranking is a library which helps in building Learning to Rank (LTR) models which use neural networks. This .ipynb notebook is an attempt to explain how to use this library to rank
 documents given various (Query,set(documents)) pairs.
 
